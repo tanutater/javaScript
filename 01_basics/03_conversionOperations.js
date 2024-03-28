@@ -34,3 +34,38 @@ console.log(stringNumber)
 //true=>1;false=>0
 //boolean conversion 1->true; 0->false ;
 //boolean conversion of ""->false; "tanu"->true
+
+// ******************************************OPERATIONS****************************************************
+
+let value=3
+let negValue=-value
+console.log(negValue)
+
+console.log(2+2)
+console.log(2-2)
+console.log(2*2)
+console.log(2**3)//power
+console.log(2/3)
+console.log(2%3)//remainder
+
+let str1="hello "
+let str2="Tanu"
+let str3=str1+str2
+console.log(str3)
+
+console.log("1"+2)
+console.log(1+"2")
+console.log("1"+2+2)
+console.log(1+2+"2")
+
+console.log(true)//ans true
+console.log(+true)//ans 1
+// console.log(true+) //error
+console.log(+"");//ans 0
+
+let num1, num2, num3
+num1=num2=num3=2 + 2
+
+let gameCounter =100
+gameCounter++ // or ++gameCounter 
+console.log(gameCounter)
