@@ -46,3 +46,26 @@ console.log(typeof bigNumber)
 //Arrays=>object
 //Object=>object
 //Functions=>function
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// stack memory and heap memory 
+// stack used in primitive(copy) type and heap memory is used in non-primitive (reference) type 
+
+let myYoutubename="tanu.com"
+
+let anotherName=myYoutubename
+anotherName="abc"
+console.log(myYoutubename)
+console.log(anotherName)
+
+
+let user1={
+    email:"user@google.com",
+    upi:"user@ybl"
+}
+let user2=user1
+
+user2.email= "tanu@google.com"
+
+console.log(user1.email)
+console.log(user2.email)
