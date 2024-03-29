@@ -28,3 +28,21 @@ const myFunction=function(){ //function
 }
 
 console.log(typeof bigNumber)
+
+
+
+// return type of variables
+
+//PRIMITIVE
+//Number=>number
+//String=>string
+//Boolean=>boolean
+//null=>object
+//undefined=>undefined
+//symbol=>symbol
+//BigInt=>bigint
+
+//NON-PRIMITIVE 
+//Arrays=>object
+//Object=>object
+//Functions=>function
